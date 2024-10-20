@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel CC V 1.2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Painel CC V 1.2</h1>
+        <div id="login">
+            <input type="text" id="username" placeholder="Usuário" />
+            <input type="password" id="password" placeholder="Senha" />
+            <button id="loginBtn">Entrar</button>
+        </div>
+        <div id="aviso" style="display: none; color: red; margin-top: 20px;">
+            O PAINEL ATUALIZA A CADA 10 MINUTOS COM NOVAS CCs. ENTÃO CASO A PRIMEIRA NÃO DER CERTO, ESPERE O TEMPO E TESTE OUTRAS. LEMBRE-SE: NÃO USE IP QUEIMADO OU PARA NÃO QUEIMAR A CC, USE 4G NA HORA DA APROVAÇÃO.
+        </div>
+        <div id="cardDetails"></div>
+    </div>
+    <script src="gerador.js"></script>
+</body>
+</html>
